@@ -1,0 +1,156 @@
+2023-06-22 18:35:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, TELEFONE, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Rua Washington Luis', 19981658363, 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, TELEFONE, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Rua Washington Luis', 19981658363, 'Jaguariúna') [42001-214]
+2023-06-22 18:35:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, TELEFONE, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Rua Washington', 19981658363, 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, TELEFONE, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Rua Washington', 19981658363, 'Jaguariúna') [42001-214]
+2023-06-22 18:35:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, TELEFONE, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Rua Washington', '19981658363', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, TELEFONE, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Rua Washington', '19981658363', 'Jaguariúna') [42001-214]
+2023-06-22 18:36:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, TELEFONE, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Rua Washington', '981658363', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, TELEFONE, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Rua Washington', '981658363', 'Jaguariúna') [42001-214]
+2023-06-22 18:37:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PESSOA" already exists; SQL statement:
+CREATE TABLE PESSOA(
+            ID NUMERIC NOT NULL,
+            NOME VARCHAR(100) NOT NULL,
+            ENDERECO VARCHAR(200) NOT NULL,
+            CIDADE VARCHAR(100) NOT NULL
+            ) [42101-214]
+2023-06-22 18:38:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Rua Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Rua Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:38:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, CIDADE)\000d\000aVALUES(1, 'Gabriel', 'Rua Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, CIDADE)
+VALUES(1, 'Gabriel', 'Rua Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:38:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]TABELA PESSOA"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP TABELA PESSOA [42001-214]
+2023-06-22 18:38:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]TABELA PESSOA"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP TABELA PESSOA [42001-214]
+2023-06-22 18:38:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]TABELA PESSOA"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP TABELA PESSOA [42001-214]
+2023-06-22 18:39:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]TABELA PESSOA"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP TABELA PESSOA [42001-214]
+2023-06-22 18:39:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PESSOA" already exists; SQL statement:
+CREATE TABLE PESSOA(
+            ID NUMERIC NOT NULL,
+            NOME VARCHAR2(100) NOT NULL,
+            ENDERECO VARCHAR2(200) NOT NULL,
+            CIDADE VARCHAR2(100) NOT NULL
+            ) [42101-214]
+2023-06-22 18:39:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]TABELA PESSOA"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP TABELA PESSOA [42001-214]
+2023-06-22 18:39:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, CIDADE)\000d\000aVALUES(1, 'Gabriel', 'Rua Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, CIDADE)
+VALUES(1, 'Gabriel', 'Rua Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:41:52 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:42:02 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](ID, NOME, ENDERECO, CIDADE)\000d\000aVALUES('Gabriel Conceição', 'Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(ID, NOME, ENDERECO, CIDADE)
+VALUES('Gabriel Conceição', 'Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:42:13 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](NOME, ENDERECO, CIDADE)\000d\000aVALUES('Gabriel Conceição', 'Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(NOME, ENDERECO, CIDADE)
+VALUES('Gabriel Conceição', 'Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:42:13 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](NOME, ENDERECO, CIDADE)\000d\000aVALUES('Gabriel Conceição', 'Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(NOME, ENDERECO, CIDADE)
+VALUES('Gabriel Conceição', 'Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:42:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO[*](NOME, ENDERECO, CIDADE)\000d\000aVALUES(1, 'Gabriel Conceição', 'Washington', 'Jaguariúna')"; expected "identifier"; SQL statement:
+INSERT INTO(NOME, ENDERECO, CIDADE)
+VALUES(1, 'Gabriel Conceição', 'Washington', 'Jaguariúna') [42001-214]
+2023-06-22 18:48:12 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Unknown data type: "VA"; SQL statement:
+CREATE TABLE PESSOA(
+            ID INT AUTO_INCREMENT PRIMARY KEY,
+            NOME VARCHAR(100) NOT NULL,
+            ENDERECO VARCHAR(200) NOT NULL,
+            TELEFONE VA [50004-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.readIfDataType1(Parser.java:6249)
+	at org.h2.command.Parser.readIfDataType(Parser.java:6087)
+	at org.h2.command.Parser.parseColumnWithType(Parser.java:6069)
+	at org.h2.command.Parser.parseColumnForTable(Parser.java:5948)
+	at org.h2.command.Parser.parseTableColumnDefinition(Parser.java:9331)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:9271)
+	at org.h2.command.Parser.parseCreate(Parser.java:6784)
+	at org.h2.command.Parser.parsePrepared(Parser.java:763)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1339)
+	at org.h2.server.web.WebApp.query(WebApp.java:1137)
+	at org.h2.server.web.WebApp.query(WebApp.java:1113)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-06-22 18:54:07 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PESSOA" already exists; SQL statement:
+CREATE TABLE PESSOA(
+            ID INT AUTO_INCREMENT PRIMARY KEY,
+            NOME VARCHAR(100) NOT NULL,
+            ENDERECO VARCHAR(200) NOT NULL,
+            TELEFONE VARCHAR(100) NOT NULL
+            ) [42101-214]
